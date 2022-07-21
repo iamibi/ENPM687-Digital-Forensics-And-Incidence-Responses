@@ -1,0 +1,9 @@
+Jul  5 12:59:23 ubuntu sshd[1832]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.2.133  user=admin
+Jul  5 12:59:25 ubuntu sshd[1832]: Failed password for admin from 192.168.2.133 port 59558 ssh2
+Jul  5 12:59:28 ubuntu sshd[1832]: Accepted password for admin from 192.168.2.133 port 59558 ssh2
+Jul  5 12:59:28 ubuntu sshd[1832]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Jul  5 12:59:28 ubuntu systemd-logind[609]: New session 8 of user admin.
+Jul  5 13:00:33 ubuntu sshd[1852]: Received disconnect from 192.168.2.133 port 59558:11: disconnected by user
+Jul  5 13:00:33 ubuntu sshd[1852]: Disconnected from 192.168.2.133 port 59558
+Jul  5 13:00:33 ubuntu sshd[1832]: pam_unix(sshd:session): session closed for user admin
+Jul  5 13:00:33 ubuntu systemd-logind[609]: Removed session 8.
